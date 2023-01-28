@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTAFOLIO Alexandra Walzer Kuncar</title>
+
+    <!-- Conexión con Bootstrap local -->
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
+    />
+
+    <!-- Conexión con fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Conexión con íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <nav class="navbar bg-dark">
+      <div class="container-fluid align-middle">
+        <span class="navbar-brand m-4 h1 text-white fw-light fs-3 título"
+          >Resumen Alexandra Walzer Kuncar</span>
+      </div>
+    </nav>
+
+
+    <!-- PRINCIPAL LATERAL -->
+    <main class="row p-5 bg-secondary">
+        <div class="col-lg-3 col-sm-12 col-xl-3">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-5 bg-secondary">
+            <nav class="nav nav-pills flex-column ">
+                <!-- imagen de perfil  -->
+                <img class="mb-5 mt-3 m-5 img-fluid rounded col-12 col-lg-8 col-xl-8 perfil" src="assets/img/foto_perfil.png" alt="imagen de perfil">
+
+              <a class="nav-link text-black border border-2 text-white fw-bold" id="navbarToggleExternalContent" href="#item-1">Acerca de mí</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1 text-light" href="#item-1-1">Profesión</a>
+                
+                <a class="nav-link ms-3 my-1 text-light" href="#item-1-2">Perfil Profesional</a>
+                <a class="nav-link ms-3 my-1 text-light mb-5" href="#item-1-3">Actualmente</a>
+              </nav>
+
+              <a class="nav-link text-black border border-2 text-white fw-bold" href="#item-2">Portafolio Desafío Latam</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1 text-light mb-5" href="#item-2-1">Repositorio en Github</a>
+              <a class="nav-link text-black border border-2 text-white fw-bold mb-5" href="#item-3">Arquitectura</a>
+            </nav>
+          </nav>
+        </div>
+      
+        <div class="col-sm-12 col-xl-8 bg-light p-5">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <!-- ACERCA DE MÍ  -->
+            <div id="item-1">
+              <h4 class="fw-normal mb-4 mt-0">Acerca de mí</h4>
+            </div>
+            <div id="item-1-1">
+              <h5 class="fw-normal">Profesión</h5>
+              <p class="m-3 mt-3 mb-0 fw-light">Arquitecto</p>
+              <p class="m-3 mt-0 mb-0 fw-light">Mención Territorio, Ciudad y Medioambiente,</p>
+              <p class="m-3 mt-0 mb-5 fw-light">Universidad del Desarrollo, Sede Concepción</p>
+            </div>
+
+            <div id="item-1-2">
+              <h5 class="fw-normal">Perfil Profesional</h5>
+              <p class="m-3 mt-3 mb-5 fw-light">Arquitecto Desarrollador de Proyectos BIM con más de 4 años de experiencia
+                laboral. Responsabilidad sobre 26 proyectos y 2 proyectos reconocidos
+                nacional e internacionalmente. Continuo uso de BIM Archicad, así como el
+                aumento de las cualidades de los proyectos, creando una experiencia para
+                el usuario desde las diferentes escalas del mismo. Desarrollo de Proyectos
+                de arquitectura, diseño de mobiliario en obra, aplicación normativa
+                chilena vigente, expedientes municipales y expedientes SAG. Proactiva,
+                flexible, comunicativa y eficiente, tanto en trabajo de equipo como
+                individual.</p>
+            </div>
+
+            <div id="item-1-3">
+                <h5 class="fw-semibold">Actualmente</h5>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-1 col-lg-2 col-xl-2 m-0"><br><i class="fa-3x fa-solid fa-sync fa-spin text-center" id="icono"></i></div>                      
+                      <div class="col-lg-8 col-xl-8 d-flex d-inline"><br><p class="m-3 mt-3 mb-5 fw-semibold d-flex">Realiza curso de Introducción al Desarrollo Web de Desafío Latam,
+                        paralelamente se desenvuelve como profesora particular de BIM Archicad, un programa de dibujo y modelado arquitectónico</p></div>
+                    </div>
+                </div>    
+
+            <!-- línea de separación -->
+            <hr>
+                  
+            <!-- PORTAFOLIO -->
+            <div id="item-2">
+               <h4 class="fw-normal mb-4 mt-5">Portafolio Desafío LATAM</h4>
+               <p class="m-3 mt-3 mb-0 fw-light">En esta sección se muestra el portafolio de los Desafíos del Curso Introducción al Desarrollo Web.
+                La finalidad del curso es aprender a utilizar VSCode, en donde se implementa html, css, bootstrap y el trabajo colaborativo. 
+                Para reforzar el aprendizaje, se realizan desafíos semanales</p>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-1 col-lg-2 col-xl-2 m-0"><br><i class="fa-solid fa-arrow-pointer fa-2xl p-6 m-4 text-center" id="icono"></i></div>
+                      <div class="col-lg-10 col-xl-10 d-flex d-inline"><br><p class="m-3 mt-5 mb-5 fw-light d-flex">Cada imagen lleva a la página respectiva de cada archivo del portafolio. Sólo haz click en cada una de ellas</p></div>
+                    </div>
+                </div>
+
+                <!-- CARDS DEL PORTAFOLIO -->
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+                    <div class="col">
+
+                      <!-- Card Desafío 6 -->
+                      <div class="card">
+                        <a href="https://awalzerk.github.io/P-Colaborativo/" target="_blank" rel="noopener noreferrer"><img src="assets/img/foto_portafolio.png" class="card-img-top" alt="Imagen Bootstrap Cuppon"></a>
+                        <div class="card-body">
+                          <h5 class="card-title fw-light">Portafolio - Trabajo Colaborativo</h5>
+                          <p class="card-text fw-light">Trabajo colaborativo desde la terminal y Github. El desafío consta de la creación de un portafolio y modificación de proyectos de compañeros a través de commit</p>
+                        </div>
+                        <a href="https://github.com/awalzerk/P-Colaborativo" target="_blank" rel="noopener noreferrer"> 
+                          <button class="btn btn-warning fw-light m-3 opacity-75 py-2 px-4 rounded-pill col-sm-3 col-lg-3 col-xl-3" type="button">GITHUB</button> </a>  
+                      </div>
+                    </div>
+
+                    <!-- Card Desafío 5 -->
+                    <div class="col">
+                      <div class="card">
+                        <a href="https://awalzerk.github.io/fdsw-github/" target="_blank" rel="noopener noreferrer"><img src="assets/img/cv_2.png" class="card-img-top" alt="Imagen Posicionamiento" ></a>
+                        <div class="card-body">
+                          <h5 class="card-title fw-light">Currículum Vitae - Terminal, Github</h5>
+                          <p class="card-text fw-light">La finalidad del desafío fue la conexión de los proyectos con la terminal y Github. También se aprendió a realizar commit para modificar proyectos en repositorios </p>
+                        </div>
+                        <a href="https://github.com/awalzerk/fdsw-github" target="_blank" rel="noopener noreferrer"> 
+                          <button class="btn btn-warning fw-light m-3 opacity-75 py-2 px-4 rounded-pill col-sm-3 col-lg-3 col-xl-3" type="button">GITHUB</button> </a>  
+                      </div>
+
+                    <!-- Card Desafío 4 -->
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <a href="https://awalzerk.github.io/CUPPON-bootstrap/" target="_blank" rel="noopener noreferrer"><img src="assets/img/cuppon.png" class="card-img-top" alt="Imagen Bootstrap Cuppon"></a>
+                        <div class="card-body">
+                          <h5 class="card-title fw-light">Cuppon - Bootstrap</h5>
+                          <p class="card-text fw-light">Se implementó Bootstrap para hermosear una landing page, así como investigar componentes en GetBootstrap</p>
+                        </div>
+                        <a href="https://github.com/awalzerk/CUPPON-bootstrap" target="_blank" rel="noopener noreferrer"> 
+                          <button class="btn btn-warning fw-light m-3 opacity-75 py-2 px-4 rounded-pill col-sm-3 col-lg-3 col-xl-3" type="button">GITHUB</button> </a>
+                      </div>
+                    </div>
+
+                    <!-- Card Desafío 3 -->
+                    <div class="col">
+                      <div class="card">
+                        <a href="https://awalzerk.github.io/POSICIONAMIENTO-desafio3/" target="_blank" rel="noopener noreferrer"><img src="assets/img/iguana_page.png" class="card-img-top" alt="Imagen Posicionamiento" ></a>
+                        <div class="card-body">
+                          <h5 class="card-title fw-light">Iguana Page - Posicionamiento</h5>
+                          <p class="card-text fw-light">El desafío siguiente fue aprender sobre la posición de los elementos en una landing page. </p>
+                        </div>
+                        <a href="https://github.com/awalzerk/POSICIONAMIENTO-desafio3" target="_blank" rel="noopener noreferrer"> 
+                          <button class="btn btn-warning fw-light m-3 opacity-75 py-2 px-4 rounded-pill col-sm-3 col-lg-3 col-xl-3" type="button">GITHUB</button> </a>  
+                      </div>
+                      
+                    <!-- Card Desafío 2 -->
+                    </div>
+                    <div class="col mb-5">
+                      <div class="card">
+                        <a href="https://awalzerk.github.io/CSS-landing/" target="_blank" rel="noopener noreferrer"><img src="assets/img/ css.png" class="card-img-top" alt="Imagen CSS"></a>
+                        <div class="card-body">
+                          <h5 class="card-title fw-light">CSS</h5>
+                          <p class="card-text fw-light">En el segundo desafío incluye CSS para agregar estilos a una Landing Page, con ID y Clases</p>
+                        </div>
+                        <a href="https://github.com/awalzerk/CSS-landing" target="_blank" rel="noopener noreferrer"> 
+                          <button class="btn btn-warning fw-light m-3 opacity-75 py-2 px-4 rounded-pill col-sm-3 col-lg-3 col-xl-3" type="button">GITHUB</button> </a>  
+                      </div>
+                    </div>                    
+
+                    <!-- Card Desafío 1 -->
+                    <div class="col mb-5">
+                      <div class="card">
+                        <a href="https://awalzerk.github.io/CV-arq/" target="_blank" rel="noopener noreferrer"><img src="assets/img/cv_arq.png" class="card-img-top" alt="Imagen CV"></a>
+                        <div class="card-body">
+                          <h5 class="card-title fw-light">CV en html</h5>
+                          <p class="card-text fw-light">Constituye el primer desafío realizado en Introducción al Desarrollo Web. Se realiza un CV con visualización en html:5</p>
+                        </div>
+                        <a href="https://github.com/awalzerk/CV-arq" target="_blank" rel="noopener noreferrer"> 
+                          <button class="btn btn-warning fw-light m-3 opacity-75 py-2 px-4 rounded-pill col-sm-3 col-lg-3 col-xl-3" type="button">GITHUB</button> </a>
+                      </div>
+                    </div>
+                 
+
+                  </div>
+            </div>
+
+            <div id="item-2-1">
+              <h5 class="fw-normal">
+              <a href="https://github.com/awalzerk?tab=repositories" target="_blank" rel="noopener noreferrer"> 
+                <button class="btn btn-warning fw-light mb-5 mt-3 m-3 opacity-75 py-2 px-4 rounded-pill col-sm-12 col-lg-12 col-xl-11" type="button">Repositorio en GITHUB</button> </a>
+              </h5>
+            </div>
+
+            
+            <!-- línea separadora -->
+            <hr>
+
+            <!-- TRABAJOS REALIZADOS EN ARQUITECTURA -->
+            <div id="item-3">
+              <h4 class="fw-normal mb-4 mt-5">Arquitectura</h4>
+              <p class="m-3 mt-3 mb-2 fw-light">Ejerce la profesión de la arquitectura, especialmente en proyección y construcción de proyectos de arquitecura, desde inicio a fin. Creación y gestión de expedientes municipales, regularizaciones, 
+                planimetría completa, visitas a terreno, entre otros.
+              </p>
+              <p class="m-3 mt-3 mb-5 fw-light"> Imagenes 3D o "render" de algunos de los trabajos más recientes:</p>
+                </ul>
+            </div>
+
+            <!-- Card de fotos -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="assets/img/alonso.png" class="card-img-top" alt="Render Remodelación Habitación Alonso">
+                  <div class="card-body">
+                    <h5 class="card-title fw-light">Remodelación Habitación</h5>
+                    <p class="card-text fw-light">Remodelación con nuevo mobiliario en obra para habitación infantil</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="assets/img/casa_alerce.png" class="card-img-top" alt="Render Casa Alerce">
+                  <div class="card-body">
+                    <h5 class="card-title fw-light">Ampliación Casa Alerce</h5>
+                    <p class="card-text fw-light">Ampliación y remodelación vivienda ubicada en la comuna de Alerce</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="assets/img/casa_af.png" class="card-img-top" alt="Render Casa AF">
+                  <div class="card-body">
+                    <h5 class="card-title fw-light">Obra Nueva Casa AF</h5>
+                    <p class="card-text fw-light">Proyecto de obra nueva en zona rural camino Ensenada </p>
+                  </div>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </main>
+
+  </body>
+
+
+  <!-- FOOTER CONTACTO -->
+  <footer class="d-flex justify-content-center d-block bg-dark text-center mb-0 mt-0">
+    <div class="container text-center input">
+        <div class="bg-dark justify-content-center">
+            <p class="text-white text-center col-xs-1 d-block fw-normal fs-5 pt-4">Contacto</p>
+            <!-- primer input -->
+            <div class="input-group">
+                <input type="text" class="form-control d-block mb-3" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <!-- segundo input -->
+            <div class="input-group ">
+                <input type="text" class="form-control d-block mb-3" placeholder="Correo Electrónico" aria-label="Correo Electrónico">
+            </div>
+            <!-- tercer input -->
+            <div class="input-group ">
+                <input type="text" class="form-control d-block mb-3" placeholder="Mensaje Breve" aria-label="Mensaje Breve">
+            </div>            
+            <!-- botón -->
+            <button type="button" class="btn btn-light justify-content-center mb-4 mt-2">Enviar</button>
+        </div>
+    </div>
+   </footer>
+
+</html>

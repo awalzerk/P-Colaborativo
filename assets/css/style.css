@@ -1,0 +1,21 @@
+
+* {
+    font-family: Space Grotesk, sans serif;
+    border: solid black ;
+}
+
+.carrusel {
+    width: 80% !important;
+}
+
+.título {
+    padding-left: 50 pt !important;
+}
+
+#icono {
+    display: inline !important;
+}
+
+p {
+    display: inline !important;
+}
