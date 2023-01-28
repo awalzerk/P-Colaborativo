@@ -1,6 +1,8 @@
 
 <a href="https://awalzerk.github.io/PORT-Colab/" target="_blank" rel="noopener noreferrer">DESAFÍO 6 -Portafolio y Resumen</a>
+
 <a href="https://github.com/awalzerk/Panaderia-Emilia" target="_blank" rel="noopener noreferrer">DESAFÍO 6 -commit 1</a>
+
 <a href="https://github.com/awalzerk/clase_css" target="_blank" rel="noopener noreferrer">DESAFÍO 6 -commit 2</a>
 
 <a href="https://github.com/awalzerk/fdsw-github" target="_blank" rel="noopener noreferrer">DESAFÍO 5 -Terminal y Github</a>
